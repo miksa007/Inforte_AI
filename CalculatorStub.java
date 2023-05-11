@@ -2,6 +2,8 @@
  */
 
 public class CalculatorStub {
+    private int[] numbers;
+
 
     // Method for addition
     public static int add(int num1, int num2) {
