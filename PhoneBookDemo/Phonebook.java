@@ -19,6 +19,12 @@ public class Phonebook {
         people.add(p);
     }
     
+    public void countThePersons(){
+        int count = 0;
+        for (Person p : people) {
+            count++;
+        }
+    }
     public void printPhonebook() {
         for (Person p : people) {
             System.out.println(p);
